@@ -126,7 +126,7 @@
 
                     // Loader logic
                     locationsProcessed++;
-                    if(locationsProcessed === array.length) {
+                    if (locationsProcessed === array.length) {
                         this.loader.hide();
                     }
                 });
@@ -205,16 +205,24 @@
 
                     this.pullData();
 
+                    // Add the watch
+                    this.$watchLocation()
+                        .then(coordinates => {
+                            this.lat = coordinates.lat;
+                            this.lng = coordinates.lng;
+
+                            this.locations = this.sortArrays(this.locations);
+                        })
+
+                })
+                .catch(() =>  {
+                    EventBus.$emit('LOCATION_ISSUE');
+                    this.lat = 51.516297;
+                    this.lng = -0.113003;
+                    this.pullData();
                 });
 
-            // Auto reorder list
-            this.$watchLocation()
-                .then(coordinates => {
-                    this.lat = coordinates.lat;
-                    this.lng = coordinates.lng;
 
-                    this.locations = this.sortArrays(this.locations);
-                })
         },
 
     }
