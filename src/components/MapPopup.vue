@@ -30,7 +30,7 @@
                 title: null,
                 address: null,
                 zoom: 16,
-                url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
+                url: 'https://{s}.tile.osm.org/{z}/{x}/{y}.png'
             }
         },
 
