@@ -7,9 +7,12 @@
     <Locations/>
     <MapPopup/>
 
-    <div>
-      Location Missing? Send a Message to Get it Sorted
-    </div>
+    <p>
+      This website doesn't set any cookies apart from those required by Vue. It doesn't collect or store any of your personal data, it does however require access to your device location to function.
+    </p>
+    <p>
+      Location Missing? Send a <a href="mailto:me@chrisireland.org">Message</a> to Get it Sorted
+    </p>
   </div>
 </template>
 
@@ -23,10 +26,6 @@ export default {
     MapPopup,
     Locations,
   },
-
-  created () {
-    document.title = 'Ready to Eat :: 50% off your dinner for tonight';
-  }
 }
 </script>
 

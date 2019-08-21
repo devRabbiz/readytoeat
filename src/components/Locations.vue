@@ -36,8 +36,8 @@
         data() {
             return {
                 locations: Array,
-                lat: null,
-                lng: null,
+                lat: 0,
+                lng: 0,
                 loader: this.$loading.show({
                     canCancel: false,
                 })
