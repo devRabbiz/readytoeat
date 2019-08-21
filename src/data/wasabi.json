@@ -1,0 +1,675 @@
+[
+  {
+     "type": "wasabi",
+    "latitude": 51.439163,
+    "longitude": 0.270177,
+    "title": "Bluewater",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "11:30am-9pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-7pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+     "type": "wasabi",
+    "latitude": 51.50464,
+    "longitude": -0.090107,
+    "title": "Borough High Street",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "10am-10pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-20:30pm"
+      }
+    ]
+  },
+  {
+    "type": "wasabi",
+    "latitude": 51.50046,
+    "longitude": -0.162706,
+    "title": "Brompton Road",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "10:30am-9pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "10:30am-8pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 52.205387,
+    "longitude": 0.121328,
+    "title": "Cambridge",
+    "hours": [
+      {
+        "title": "Monday-Sunday",
+        "hours": "10:30am-10:30pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 52.194791,
+    "longitude": 0.137036,
+    "title": "Cambridge Station",
+    "hours": [
+      {
+        "title": "Sunday-Wednesday",
+        "hours": "10am-9pm"
+      },
+      {
+        "title": "Thursday-Saturday",
+        "hours": "10am-10pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.538702,
+    "longitude": -0.142773,
+    "title": "Camden",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "10:30am-10pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "10:30am-8pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.50518,
+    "longitude": -0.02166,
+    "title": "Canary Wharf",
+    "hours": [
+      {
+        "title": "Monday-Wednesday",
+        "hours": "9am-9:30pm"
+      },
+      {
+        "title": "Thursday-Friday",
+        "hours": "9am-10pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "11am-9pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-8pm"
+      }
+    ]
+  },
+  {
+    "type": "wasabi",
+    "latitude": 51.513416,
+    "longitude": -0.303743,
+    "title": "Ealing Broadway Shopping Centre",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "10:30am-10pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-9pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.507627,
+    "longitude": -0.123065,
+    "title": "Embankment",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "10:30am-10pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-9pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.514154,
+    "longitude": -0.107365,
+    "title": "Fleet Street",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10:30am-9:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.492232,
+    "longitude": -0.224559,
+    "title": "Hammersmith",
+    "hours": [
+      {
+        "title": "Monday-Sunday",
+        "hours": "9am-9pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.492362,
+    "longitude": -0.226942,
+    "title": "Hammersmith Kingsmall",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "10am-9:30pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-8pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.517711,
+    "longitude": -0.110279,
+    "title": "High Holborn",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10:30am-9:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.500884,
+    "longitude": -0.192828,
+    "title": "High Street Kensington",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "10am-10pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-9pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.517824,
+    "longitude": -0.120076,
+    "title": "Holborn Station",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10:30am-9:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.513812,
+    "longitude": -0.118122,
+    "title": "Kingsway",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10:30am-9:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.487781,
+    "longitude": 0.28449,
+    "title": "Lakeside",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "11am-10pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "11am-9pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-5pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 53.796743,
+    "longitude": -1.545288,
+    "title": "Leeds Albion Street",
+    "hours": [
+      {
+        "title": "Monday-Wednesday",
+        "hours": "10am-9pm"
+      },
+      {
+        "title": "Thursday-Friday",
+        "hours": "10am-10pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "11am-10pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-9pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 53.795906,
+    "longitude": -1.545495,
+    "title": "Leeds Trinity Shopping Centre",
+    "hours": [
+      {
+        "title": "Monday-Sunday",
+        "hours": "10:30am-7pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.517178,
+    "longitude": -0.087489,
+    "title": "London Wall",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10am-9pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.520231,
+    "longitude": -0.087168,
+    "title": "Moorgate",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10am-9:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.516678,
+    "longitude": -0.083439,
+    "title": "Old Broad Street",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10am-8:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.512875,
+    "longitude": -0.131812,
+    "title": "Old Compton Street",
+    "hours": [
+      {
+        "title": "Monday-Sunday",
+        "hours": "11am-11pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.513538,
+    "longitude": -0.095218,
+    "title": "One New Change",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "11am-6pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.75278,
+    "longitude": -1.257882,
+    "title": "Oxford",
+    "hours": [
+      {
+        "title": "Monday-Wednesday",
+        "hours": "10:30am-10pm"
+      },
+      {
+        "title": "Thursday",
+        "hours": "10:30am-10:30pm"
+      },
+      {
+        "title": "Friday-Saturday",
+        "hours": "10:30am-11pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "10:30am-9:30pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.514789,
+    "longitude": -0.144438,
+    "title": "Oxford Street, 293",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10am-10pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "10am-11pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "10am-8pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.516345,
+    "longitude": -0.133325,
+    "title": "Oxford Street, 58",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "10:30am-9:30pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-8pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.533227,
+    "longitude": -0.126109,
+    "title": "Pancras Square",
+    "hours": [
+      {
+        "title": "Monday-Wednesday",
+        "hours": "10:30am-9pm"
+      },
+      {
+        "title": "Thursday-Friday",
+        "hours": "10am-10pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "12pm-5:30pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.514885,
+    "longitude": -0.098247,
+    "title": "Paternoster",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10am-9:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.508839,
+    "longitude": -0.137806,
+    "title": "Piccadilly",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10:30am-9pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "10:30am-8pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.52423,
+    "longitude": -0.142112,
+    "title": "Regent's Place",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "11am-8:30pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "11am-7:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.523009,
+    "longitude": -0.124738,
+    "title": "Russell Square",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "11am-10:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "11am-8:30pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.511602,
+    "longitude": -0.133243,
+    "title": "Shaftesbury Avenue",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "11am-11pm"
+      },
+      {
+        "title": "Friday-Saturday",
+        "hours": "11am-12am"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-10pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.493853,
+    "longitude": -0.174585,
+    "title": "South Kensington",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "10:30am-10pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "10:30am-9pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.502525,
+    "longitude": 0.003664,
+    "title": "The O2",
+    "hours": [
+      {
+        "title": "Monday-Sunday",
+        "hours": "12pm-9pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.510649,
+    "longitude": -0.121727,
+    "title": "The Strand",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10am-10pm"
+      },
+      {
+        "title": "Friday-Saturday",
+        "hours": "11am-9pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-8pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.517328,
+    "longitude": -0.131259,
+    "title": "Tottenham Court Road",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10:30am-10pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "10:30am-11pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "10:30am-9pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.514804,
+    "longitude": -0.135157,
+    "title": "Wardour Street",
+    "hours": [
+      {
+        "title": "Monday-Sunday",
+        "hours": "11am-6pm"
+      }
+    ]
+    },
+  {
+     "type": "wasabi",
+    "latitude": 51.524069,
+    "longitude": -0.137795,
+    "title": "Warren Street",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "10:30am-10pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "11am-8pm"
+      }
+    ]
+    },
+  {
+    "type": "wasabi",
+    "latitude": 51.513798,
+    "longitude": -0.149617,
+    "title": "West One Shopping Centre",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "9:30am-10pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "11am-9pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-7:30pm"
+      }
+    ]
+  }
+]
