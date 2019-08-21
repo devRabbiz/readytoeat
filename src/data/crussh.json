@@ -1,0 +1,748 @@
+[
+  {
+    "type": "crussh",
+    "address_1": "11 Strand",
+    "title": "Strand",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.50813",
+    "longitude": "-0.12574",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-7pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-6:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "5-7 Nevill lane",
+    "title": "New Street Square",
+    "address_2": "New Street Square",
+    "city": "London",
+    "latitude": "51.515642",
+    "longitude": "-0.108689",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-6pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-5:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "6 Farringdon St",
+    "title": "Ludgate Circus",
+    "address_2": "Ludgate Circus Buildings",
+    "city": "London",
+    "latitude": "51.514527",
+    "longitude": "-0.104119",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-5:30pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "14 Broadwick Street",
+    "title": "Soho - Broadwick Street",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.514033",
+    "longitude": "-0.135028",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-5:30pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "Unit 4 friars House",
+    "title": "Friars House",
+    "address_2": "160 Blackfriars Road",
+    "city": "London",
+    "latitude": "51.501417",
+    "longitude": "-0.104531",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-4:30pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "Unit R5, Bankside Building 1",
+    "title": "Bankside",
+    "address_2": "14 Sumner St",
+    "city": "London",
+    "latitude": "51.508322",
+    "longitude": "-0.097113",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7:30am-6:30pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "10am-5pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "30 Rathbone Place",
+    "title": "Tottenham Court Rd (Rathbone Place)",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.517742",
+    "longitude": "-0.134504",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7:30am-5:30pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "10 Crown Passage",
+    "title": "Crown Passage",
+    "address_2": "Westminster",
+    "city": "London",
+    "latitude": "51.505527",
+    "longitude": "-0.137478",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-6pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-5:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "4 Millbank",
+    "title": "Westminster (Millbank)",
+    "address_2": "Westminster",
+    "city": "London",
+    "latitude": "51.496847",
+    "longitude": "-0.125857",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7:30am-6pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7:30am-5:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "47 Eastcastle St",
+    "title": "Oxford Circus (Eastcastle Street)",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.516407",
+    "longitude": "-0.139244",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-7pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "11am-5:30pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "28 Brunswick Centre",
+    "title": "Brunswick",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.52531",
+    "longitude": "-0.123407",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "8am-7pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "10am-7pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "10am-6pm"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "15 Strutton Ground",
+    "title": "St James Park (Strutton Ground)",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.49735",
+    "longitude": "-0.133752",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "1 Curzon St",
+    "title": "Green Park (Curzon Street)",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.507751",
+    "longitude": "-0.145551",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-6pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "Crussh Drysdale Building",
+    "title": "City, University of London",
+    "address_2": "University of London",
+    "city": "London",
+    "latitude": "51.527828",
+    "longitude": "-0.104733",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "8:30am-5:00pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "168A Salisbury House",
+    "title": "Moorgate Light Centre",
+    "address_2": "London Wall",
+    "city": "London",
+    "latitude": "51.517627",
+    "longitude": "-0.087697",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-6pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-5:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "48 Cornhill",
+    "title": "Bank (Cornhill)",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.513192",
+    "longitude": "-0.084986",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-5pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+   },
+  {
+    "type": "crussh",
+    "address_1": "36 St Mary at Hill, London,",
+    "title": "Monument Light Centre",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.510202",
+    "longitude": "-0.083403",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7:30am-6pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+   },
+  {
+    "type": "crussh",
+    "address_1": "The Minster Building",
+    "title": "The Minster Building",
+    "address_2": "21 Mincing Lane",
+    "city": "London",
+    "latitude": "51.510217",
+    "longitude": "-0.081408",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "8am-5pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "8am-4:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "99 Wilton Rd, Pimlico, London",
+    "title": "Sainsbury's - Pimlico",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.492537",
+    "longitude": "-0.137526",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "7am-6:30pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "11am-5pm"
+      }
+    ]
+ },
+  {
+    "type": "crussh",
+    "address_1": "6 Bevis Marks",
+    "title": "Liverpool Street (Bevis Marks)",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.514852",
+    "longitude": "-0.079658",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-5:30pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "9 Eccleston Street",
+    "title": "Belgravia Light Centre",
+    "address_2": "Belgravia",
+    "city": "London",
+    "latitude": "51.49435",
+    "longitude": "-0.147896",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-5:30pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7:30am-5:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "Unit 4, York House",
+    "title": "Marble Arch (Bryanston Street)",
+    "address_2": "Bryanston Street",
+    "city": "London",
+    "latitude": "51.514274",
+    "longitude": "-0.160523",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7:30am-5pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7:30am-4:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "Paddington Station",
+    "title": "Paddington Station",
+    "address_2": "Praed Street",
+    "city": "London",
+    "latitude": "51.516674",
+    "longitude": "-0.176933",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "6am-9pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "7am-8pm"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "27 Kensington High Street",
+    "title": "High St Kensington",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.502245",
+    "longitude": "-0.188613",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-6pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "9am-5:30pm"
+      }
+    ]
+   },
+  {
+    "type": "crussh",
+    "address_1": "59 Notting Hill Gate",
+    "title": "Notting Hill",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.509248",
+    "longitude": "-0.195595",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-8pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "8am-7pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "9am-6pm"
+      }
+    ]
+   },
+  {
+    "type": "crussh",
+    "address_1": "Dulwich Leisure Centre",
+    "title": "East Dulwich",
+    "address_2": "2b Crystal Palace Road",
+    "city": "London",
+    "latitude": "51.460629",
+    "longitude": "-0.071559",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "8am-7pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "8am-5pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "9am-4pm"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "Tower Concourse Level",
+    "title": "Canary Wharf - Canada Square",
+    "address_2": "One Canada Sq, Canary Wharf",
+    "city": "London",
+    "latitude": "51.504954",
+    "longitude": "-0.01945",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-9pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "10am-7pm"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "Unit 21, Jubilee Place",
+    "title": "Canary Wharf - Jubilee Place",
+    "address_2": "45 Bank Street",
+    "city": "London",
+    "latitude": "51.503244",
+    "longitude": "-0.019693",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-8pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "9am-7pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "9am-6pm"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "Westway Sports Centre",
+    "title": "Westway",
+    "address_2": "1 Crowthorne Road, Notting Hill",
+    "city": "London",
+    "latitude": "51.515211",
+    "longitude": "-0.22072",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7:30am-8pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "7:30am-7pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "8:30am-7pm"
+      }
+    ]
+  },
+  {
+    "type": "crussh",
+    "address_1": "Moberly Sports Centre",
+    "title": "Kensal Rise",
+    "address_2": "25 Chamberlayne Road",
+    "city": "London",
+    "latitude": "51.530816",
+    "longitude": "-0.21661",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "8:30am-8pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "8:30am-7:30pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "9am-7:30pm"
+      }
+    ]
+   },
+  {
+    "type": "crussh",
+    "address_1": "201 Wood Lane",
+    "title": "BBC White City",
+    "address_2": "",
+    "city": "London",
+    "latitude": "51.514014",
+    "longitude": "-0.22798",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7:30am-5:30pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+   },
+  {
+    "type": "crussh",
+    "address_1": "NHS Heart of Hounslow Centre for Health",
+    "title": "Hounslow",
+    "address_2": "92 Bath Road, Hounslow, Middlesex",
+    "city": "Sowerby bridge",
+    "latitude": "51.468263",
+    "longitude": "-0.371755",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "8am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ]
+    },
+  {
+    "type": "crussh",
+    "address_1": "Westminster Lodge Leisure Centre",
+    "title": "St Albans",
+    "address_2": "Holywell Hill",
+    "city": "St Albans",
+    "latitude": "51.745655",
+    "longitude": "-0.344443",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "8am-7:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "8am-7pm"
+      }
+    ]
+   },
+  {
+    "type": "crussh",
+    "address_1": "Steelhouse Lane",
+    "title": "Birmingham Children's Hospital",
+    "address_2": "",
+    "city": "Birmingham",
+    "latitude": "52.485101",
+    "longitude": "-1.894675",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7:30am-7:30pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "8am-7:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "8:30am-7:30pm"
+      }
+    ]
+   }
+]

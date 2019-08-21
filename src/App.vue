@@ -1,7 +1,8 @@
 <template>
   <div id="app">
+    <vue-title title="Ready to Eat :: 50% Food"></vue-title>
     <b-jumbotron header="Ready to Eat" lead="Reduced Food at Closing Time">
-        <p>itsu, wasabi</p>
+        <p>crussh, itsu, pod, wasabi</p>
     </b-jumbotron>
     <Locations/>
     <MapPopup/>
@@ -21,6 +22,10 @@ export default {
   components: {
     MapPopup,
     Locations,
+  },
+
+  created () {
+    document.title = 'Ready to Eat :: 50% off your dinner for tonight';
   }
 }
 </script>

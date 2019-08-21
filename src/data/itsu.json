@@ -251,34 +251,6 @@
     "single_url": "https:\/\/www.itsu.com\/location\/oxford-westgate\/"
   },
   {
-    "title": "Itsu 7th Avenue &amp; 39th Street, NYC",
-    "address_1": "530 7th Avenue New York 10018",
-    "address_2": "",
-    "city": "New York",
-    "state": "New York",
-    "postal_code": "10018",
-    "country": "US",
-    "telephone": "",
-    "latitude": "40.754148",
-    "longitude": "-73.988931",
-    "transit_info": "",
-    "wifi_available": false,
-    "hours": [
-      {
-        "title": "Monday - Friday ",
-        "hours": "10am - 10pm",
-        "highlight": false
-      },
-      {
-        "title": "Saturday - Sunday ",
-        "hours": "Closed",
-        "highlight": false
-      }
-    ],
-    "delivery_options": [],
-    "single_url": "https:\/\/www.itsu.com\/location\/itsu-usa-coming-soon-summer-2018\/"
-  },
-  {
     "title": "The Shard",
     "address_1": "The Shard Retail Arcade",
     "address_2": "",

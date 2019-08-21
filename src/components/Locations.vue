@@ -1,6 +1,6 @@
 <template>
     <div id="locationList">
-        <div v-for="location in locations" :key="location.title">
+        <div v-for="location in locations" :key="location.title + '-' + location.type">
 
             <div v-if="location.show !== false">
                 <b-card
@@ -11,7 +11,7 @@
                         I am {{ location.distance }} miles away <span v-if="location.half_price"> and currently half price</span>
                     </b-card-text>
 
-                    <b-link v-on:click="launchModal(location.title, location.latitude, location.longitude, [location.address_1, location.address_2, location.city])"
+                    <b-link v-on:click="launchModal(location.title, location.latitude, location.longitude, [location.address_1, location.address_2, location.city], location.type)"
                             class="card-link btn btn-primary">Open in Maps
                     </b-link>
 
@@ -29,7 +29,8 @@
     import EventBus from '../eventBus'
     import wasabi from '../data/wasabi'
     import itsu from '../data/itsu' // https://www.itsu.com/wp-admin/admin-ajax.php?action=locationList
-
+    import crussh from '../data/crussh' // https://crussh.com/wp-admin/admin-ajax.php?action=store_search&lat=51.51073&lng=-0.11694&max_results=30&search_radius=50&autoload=1
+    import pod from '../data/pod' // https://www.pod.co.uk/find-a-pod
     export default {
         name: "Locations",
         data() {
@@ -37,31 +38,37 @@
                 locations: Array,
                 lat: null,
                 lng: null,
+                loader: this.$loading.show({
+                    canCancel: false,
+                })
             }
         },
 
         methods: {
             pullData() {
-                // Show a loader
-                let loader = this.$loading.show({
-                    canCancel: false,
-                });
-
                 // Add Wasabi
                 this.locations = wasabi;
 
                 // Add itsu
                 this.locations = this.locations.concat(itsu);
 
+                // Add crussh
+                this.locations = this.locations.concat(crussh);
+
+                // Add pod
+                this.locations = this.locations.concat(pod);
+
                 // Process Locations
                 this.processLocations();
-                loader.hide();
 
             },
 
             processLocations() {
+                // Loader for better UX
+                let locationsProcessed = 0;
+
                 // Build our additional data
-                this.locations.forEach((location) => {
+                this.locations.forEach((location, index, array) => {
                     // Location between user and store
                     location.distance = this.calculateDistance(this.lat, this.lng, location.latitude, location.longitude).toFixed(2);
 
@@ -75,8 +82,8 @@
                         });
 
                         // Label itsu as its own type
-                        if (location.address_1) {
-                            location.type = "itsu"
+                        if (typeof location.wifi_available != 'undefined') {
+                            location.type = 'itsu'
                         }
 
 
@@ -88,7 +95,9 @@
 
                         // Calculate if they're closed, or closing
                         let time_till_change = moment(location.oh.getNextChange());
-                        if (location.oh.getState() === 'close') {
+
+                        // Only figure the countdown if they're closed
+                        if (!location.oh.getState()) {
                             location.state = 'Closed, will reopen in ' + time_till_change.toNow(true)
                         } else {
                             location.state = 'Closing in ' + time_till_change.toNow(true);
@@ -97,12 +106,28 @@
                             let now = moment();
                             let difference = time_till_change.diff(now, 'minutes');
 
-                            if (difference <= 30) {
-                                location.half_price = true
-                            } else if (difference <= 45) {
-                                location.warning = true
-                            }
+                            // 30 min warnings
+                            if (location.type === 'itsu' || location.type === 'wasabi') {
+                                if (difference <= 30) {
+                                    location.half_price = true
+                                } else if (difference <= 45) {
+                                    location.warning = true
+                                }
+                            } else {
+                                if (difference <= 60) {
+                                    location.half_price = true
+                                } else if (difference <= 75) {
+                                    location.warning = true
+                                }
+                            } // Everything else is 1 hour
+
                         }
+                    }
+
+                    // Loader logic
+                    locationsProcessed++;
+                    if(locationsProcessed === array.length) {
+                        this.loader.hide();
                     }
                 });
 
@@ -159,10 +184,10 @@
 
             },
 
-            launchModal(title, lat, lng, address) {
+            launchModal(title, lat, lng, address, type) {
                 // Communicate to the Modal system
                 const payload = {
-                    title: title,
+                    title: title + ' (' + type + ')',
                     lat: lat,
                     lng: lng,
                     address: address
@@ -178,7 +203,7 @@
                     this.lat = coordinates.lat;
                     this.lng = coordinates.lng;
 
-                    this.pullData()
+                    this.pullData();
 
                 });
 
@@ -190,13 +215,15 @@
 
                     this.locations = this.sortArrays(this.locations);
                 })
-        }
+        },
+
     }
 </script>
 
 <style scoped>
     .card {
         background-repeat: no-repeat;
+        background-position: left center;
     }
 
     .card.itsu {
@@ -206,4 +233,13 @@
     .card.wasabi {
         background-image: url('../assets/wasabi.png');
     }
+
+    .card.crussh {
+        background-image: url('../assets/crussh.png');
+    }
+
+    .card.pod {
+        background-image: url('../assets/pod.png');
+    }
+
 </style>

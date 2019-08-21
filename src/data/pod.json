@@ -1,0 +1,247 @@
+[
+  {
+    "type": "pod",
+    "address_1": "10 St Martins Le Grand, St. Pauls, London, EC1A 4EN",
+    "title": "Cheapside",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6am-8:30pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "8:30am-6pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "8:30am-4:30pm"
+      }
+    ],
+    "latitude": 51.515032,
+    "longitude": -0.09689200000002529
+  },
+  {
+    "type": "pod",
+    "address_1": "71 Chiswell Street, City of London, EC1Y 4AB",
+    "title": "Chiswell Street",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-8:30pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "8am-5pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "8am-5pm"
+      }
+    ],
+    "latitude": 51.5204,
+    "longitude": -0.09027600000001712
+  },
+  {
+    "type": "pod",
+    "address_1": "81 City Road, London, EC1Y 1BD",
+    "title": "City Road",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-9pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "8:30am-6pm"
+      }
+    ],
+    "latitude": 51.524706,
+    "longitude": -0.08740000000000236
+  },
+  {
+  "type": "pod",
+    "address_1": "Devonshire Square, London, EC2M 4YP",
+    "title": "Devonshire Square",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-8:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.516434,
+    "longitude": -0.07881399999996574
+  },
+  {
+    "type": "pod",
+    "address_1": "Exchange Square Unit 25, 3 Exchange Square, EC2A 2EH",
+    "title": "Exchange Square",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-8:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.519642,
+    "longitude": -0.0801890000000185
+  },
+  {
+    "type": "pod",
+    "address_1": "6 Gracechurch Street, London, EC3V 0AT",
+    "title": "Gracechurch Street",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-8:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "9am-4pm"
+      }
+    ],
+    "latitude": 51.512877,
+    "longitude": -0.08447000000001026
+  },
+  {
+    "type": "pod",
+    "address_1": "55 Great Eastern Street, London, EC2A 3HP",
+    "title": "Great Eastern Street",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-8:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "8am-6pm"
+      }
+    ],
+    "latitude": 51.524568,
+    "longitude": -0.08083099999998922
+  },
+  {
+    "type": "pod",
+    "address_1": "124 High Holborn, London, WC1V 6AN",
+    "title": "Holborn",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-8:30pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "8:30am-8pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "8:30am-7pm"
+      }
+    ],
+    "latitude": 51.517751,
+    "longitude": -0.12113099999999122
+  },
+  {
+    "type": "pod",
+    "address_1": "5 Lloyds Avenue, London, EC3N 3AE",
+    "title": "Lloyds Avenue",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-8:30pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "9am-3pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "9am-3pm"
+      }
+    ],
+    "latitude": 51.51162,
+    "longitude": -0.07755199999996876
+  },
+  {
+    "type": "pod",
+    "address_1": "77 Lombard Street, London, EC3V 9AY ",
+    "title": "Lombard Street",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-8:30pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "9am-3pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "9am-3pm"
+      }
+    ],
+    "latitude": 51.513003,
+    "longitude": -0.0886199999999917
+  },
+  {
+    "type": "pod",
+    "address_1": "Unit C, 7 More London Place, SE1 2RT",
+    "title": "More London Place",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-8:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "9am-6pm"
+      }
+    ],
+    "latitude": 51.504562,
+    "longitude": -0.08131300000002284
+  },
+  {
+    "type": "pod",
+    "address_1": "Unit 2, Euston Tower Podium, London, NW1 3DP",
+    "title": "Regents Place",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-8:30pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.525243,
+    "longitude": -0.13928899999996247
+  },
+  {
+    "type": "pod",
+    "address_1": "15 Kingsway, London, WC2B 6UN ",
+    "title": "Kingsway",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-9pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "8am-8pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "9am-8pm"
+      }
+    ],
+    "latitude": 51.514413,
+    "longitude": -0.1184090000000424
+  }
+]
