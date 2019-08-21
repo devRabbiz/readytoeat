@@ -231,7 +231,7 @@
 <style scoped>
     .card {
         background-repeat: no-repeat;
-        background-position: left center;
+        background-position: 5% center;
     }
 
     .card.itsu {

@@ -12,7 +12,7 @@
             your personal data, it does however require access to your device location to function.
         </p>
         <p>
-            Location Missing? Send a <a href="mailto:me@chrisireland.org">Message</a> to Get it Sorted
+            Location missing? Send a <a href="mailto:me@chrisireland.org">message</a> to get it sorted
         </p>
     </div>
 </template>
