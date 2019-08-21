@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <b-jumbotron header="Ready to Eat" lead="Reduced Food at Closing Time">
+        <p>itsu, wasabi</p>
+    </b-jumbotron>
+    <Locations/>
+    <MapPopup/>
+
+    <div>
+      Location Missing? Send a Message to Get it Sorted
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Locations from "@/components/Locations";
+import MapPopup from "@/components/MapPopup";
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MapPopup,
+    Locations,
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
+  @import 'https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/materia/bootstrap.min.css';
 </style>
