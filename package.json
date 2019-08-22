@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "release": "gh-pages-auto-release --git-repo git@github.com:lungyiin/readytoeat gh-pages"
+    "release": "gh-pages-auto-release --git-repo https://github.com/lungyiin/readytoeat.git gh-pages"
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.28",
