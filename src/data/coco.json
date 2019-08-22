@@ -1,0 +1,480 @@
+[
+  {
+    "type": "coco",
+    "address_1": "100 Southwark Street",
+    "city": "London",
+    "title": "Bankside",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "6:30am-7pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.505590969235485,
+    "longitude": -0.09906463267975596
+  },
+  {
+    "type": "coco",
+    "address_1": "55 Bishopsgate",
+    "city": "London",
+    "title": "Bishopsgate",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "6:30am-8pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.515285,
+    "longitude": -0.082737
+  },
+  {
+    "type": "coco",
+    "address_1": "49 Bow Lane",
+    "city": "London",
+    "title": "Bow Lane",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.513418161665946,
+    "longitude": -0.09345310062906265
+  },
+  {
+    "type": "coco",
+    "address_1": "38 Coleman Street",
+    "city": "London",
+    "title": "Coleman Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "6:30am-6pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5151872,
+    "longitude": -0.09022430000004533
+  },
+  {
+    "type": "coco",
+    "address_1": "64-65 Cowcross Street",
+    "city": "London",
+    "title": "Cowcross Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "6:30am-8pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5200348,
+    "longitude": -0.1040679000000182
+  },
+  {
+    "type": "coco",
+    "address_1": "2 Crown Passage",
+    "city": "London",
+    "title": "Crown Passage",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.505852039375554,
+    "longitude": -0.13777134601537
+  },
+  {
+    "type": "coco",
+    "address_1": "90 Fleet St",
+    "city": "London",
+    "title": "Fleet Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "6:30am-8pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.514084247746446,
+    "longitude": -0.10542676686475261
+  },
+  {
+    "type": "coco",
+    "address_1": "Unit 31, The Broadway Shopping Centre",
+    "city": "London",
+    "title": "Hammersmith",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-9pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "7am-8pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "8am-7pm"
+      }
+    ],
+    "latitude": 51.4926609,
+    "longitude": -0.2234826000000112
+  },
+  {
+    "type": "coco",
+    "address_1": "123 Houndsditch",
+    "city": "London",
+    "title": "Houndsditch",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.505590969235485,
+    "longitude": -0.09906463267975596
+  },
+  {
+    "type": "coco",
+    "address_1": "Capital House, 85 King William St",
+    "city": "London",
+    "title": "King William Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "6:30am-7pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5124804,
+    "longitude": -0.0877067999999781
+  },
+  {
+    "type": "coco",
+    "address_1": "10 Leather Lane",
+    "city": "London",
+    "title": "Leather Lane",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5189227,
+    "longitude": -0.1090059000000565
+  },
+  {
+    "type": "coco",
+    "address_1": "21 Lime Street",
+    "city": "London",
+    "title": "Lime Street",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5134418,
+    "longitude": -0.08175949999997556
+  },
+  {
+    "type": "coco",
+    "address_1": "115 London Wall",
+    "city": "London",
+    "title": "London Wall",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "6:30am-9pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.51728689999999,
+    "longitude": -0.08834400000000642
+  },
+  {
+    "type": "coco",
+    "address_1": "52 Margaret Street",
+    "city": "London",
+    "title": "Margaret Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-9pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-5pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "9am-7pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "10am-6pm"
+      }
+    ],
+    "latitude": 51.51651413508384,
+    "longitude": -0.14145009077265058
+  },
+  {
+    "type": "coco",
+    "address_1": "9 Eastcheap",
+    "city": "London",
+    "title": "Monument",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5108486,
+    "longitude": -0.08497650000003887
+  },
+  {
+    "type": "coco",
+    "address_1": "5 Nevill Lane",
+    "city": "London",
+    "title": "New Street Square",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.51577646567131,
+    "longitude": -0.10884630922737415
+  },
+  {
+    "type": "coco",
+    "address_1": "32 Old Bailey",
+    "city": "London",
+    "title": "Old Bailey",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.514879108726454,
+    "longitude": -0.102444111045088
+  },
+  {
+    "type": "coco",
+    "address_1": "2 Kingdom Street",
+    "city": "London",
+    "title": "Paddington",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-6pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.51929199999999,
+    "longitude": -0.1817358000000695
+  },
+  {
+    "type": "coco",
+    "address_1": "2 Southbank Place",
+    "city": "London",
+    "title": "Southbank",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-8pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "9am-8pm"
+      }
+    ],
+    "latitude": 51.504039,
+    "longitude": -0.115652
+  },
+  {
+    "type": "coco",
+    "address_1": "8 Queens Head Passage",
+    "city": "London",
+    "title": "St Paul's",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "6:30am-8pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.514899392073445,
+    "longitude": -0.09827147483406407
+  },
+  {
+    "type": "coco",
+    "address_1": "9-11 Tottenham St",
+    "city": "London",
+    "title": "Tottenham St",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "6:30am-7pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "8am-6pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5205142,
+    "longitude": -0.13501550000000861
+  },
+  {
+    "type": "coco",
+    "address_1": "139 Victoria Street",
+    "city": "London",
+    "title": "Victoria Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "6:30am-8pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "6:30am-5pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "9am-5pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.4969239,
+    "longitude": -0.13885240000001886
+  },
+  {
+    "type": "coco",
+    "address_1": "White City Place, 191 Wood Lane",
+    "city": "London",
+    "title": "White City",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-6pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-5pm"
+      },
+      {
+        "title": "Saturday",
+        "hours": "12pm-8pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.51350499668502,
+    "longitude": -0.22774975588913549
+  }
+]

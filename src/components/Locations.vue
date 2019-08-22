@@ -27,10 +27,15 @@
     import * as opening_hours from 'opening_hours';
     import * as moment from 'moment';
     import EventBus from '../eventBus'
-    import wasabi from '../data/wasabi'
+
+    // Json location data, formatted via https://jsoneditoronline.org
+    import wasabi from '../data/wasabi' // https://www.wasabi.uk.com/ourbranches
     import itsu from '../data/itsu' // https://www.itsu.com/wp-admin/admin-ajax.php?action=locationList
     import crussh from '../data/crussh' // https://crussh.com/wp-admin/admin-ajax.php?action=store_search&lat=51.51073&lng=-0.11694&max_results=30&search_radius=50&autoload=1
     import pod from '../data/pod' // https://www.pod.co.uk/find-a-pod
+    import coco from '../data/coco' // https://www.cocodimama.co.uk/locations/
+    import tossed from '../data/tossed' //  https://tosseduk.com/stores/
+
     export default {
         name: "Locations",
         data() {
@@ -58,6 +63,12 @@
                 // Add pod
                 this.locations = this.locations.concat(pod);
 
+                // Add coco
+                this.locations = this.locations.concat(coco);
+
+                // Add tossed
+                this.locations = this.locations.concat(tossed)
+
                 // Process Locations
                 this.processLocations();
 
@@ -73,7 +84,7 @@
                     location.distance = this.calculateDistance(this.lat, this.lng, location.latitude, location.longitude).toFixed(2);
 
                     // Deal with bloody bicester village and heathrow (itsu-specific as we don't have control over the api
-                    if (location.hours[0].title === 'As per Bicester village' || location.title === 'Heathrow T5 Airside') {
+                    if (location.hours[0].title === 'As per Bicester village' || location.title === 'Heathrow T5 Airside' || location.title === 'Stansted Airside') {
                         location.show = false;
                     } else {
                         // Trim the last bits of weird meta data (itsu specific)
@@ -234,6 +245,7 @@
         background-position: 5% center;
     }
 
+    /* at 50% opacity */
     .card.itsu {
         background-image: url('../assets/itsu.png');
     }
@@ -248,6 +260,14 @@
 
     .card.pod {
         background-image: url('../assets/pod.png');
+    }
+
+    .card.coco {
+        background-image: url('../assets/coco.png');
+    }
+
+    .card.tossed {
+        background-image: url('../assets/tossed.png');
     }
 
 </style>

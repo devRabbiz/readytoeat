@@ -8,7 +8,7 @@
                 @shown="modalShown">
             <p>{{ address }}</p>
             <l-map ref="map" style="height: 300px; width: 100%; margin-bottom: 10px" :zoom="zoom" :center="[lat, lng]" :options="{zoomControl: true}">
-                <l-tile-layer :url="url"></l-tile-layer>
+                <l-tile-layer :url="url" :attribution="provider"></l-tile-layer>
                 <l-marker :lat-lng="[lat, lng]" ></l-marker>
             </l-map>
 
@@ -30,7 +30,8 @@
                 title: null,
                 address: null,
                 zoom: 16,
-                url: 'https://{s}.tile.osm.org/{z}/{x}/{y}.png'
+                url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                provider: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }
         },
 
@@ -52,7 +53,7 @@
                 this.lat = payload.lat;
                 this.lng = payload.lng;
                 this.title = payload.title;
-                this.address = payload.address.filter(x => x).toString(',&nbsp;');
+                this.address = payload.address.filter(x => x).toString(', <br/>');
 
                 this.showMap()
             })

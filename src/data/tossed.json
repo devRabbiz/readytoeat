@@ -1,0 +1,334 @@
+[
+  {
+    "type": "tossed",
+    "address_1": "78 Leadenhall Street",
+    "city": "London",
+    "title": "Aldgate",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5133066,
+    "longitude": -0.07822859999998855
+  },
+  {
+    "type": "tossed",
+    "address_1": "31-33 Baker Street",
+    "city": "London",
+    "title": "Baker Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-6pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5178591,
+    "longitude": -0.15572919999999613
+  },
+  {
+    "type": "tossed",
+    "address_1": "6 Canvey Street",
+    "city": "London",
+    "title": "Bankside (Southbank)",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-9pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5061099,
+    "longitude": -0.09930489999999281
+  },
+  {
+    "type": "tossed",
+    "address_1": "4 Brunswick Centre",
+    "city": "London",
+    "title": "Brunswick",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "11am-9pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "11am-9pm"
+      }
+    ],
+    "latitude": 51.5238323,
+    "longitude": -0.12409520000005614
+  },
+  {
+    "type": "tossed",
+    "address_1": "131 Clerkenwell Road",
+    "city": "London",
+    "title": "Clerkenwell",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "8am-5pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "8am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5215788,
+    "longitude": -0.11265109999999368
+  },
+  {
+    "type": "tossed",
+    "address_1": "32 Coleman Street",
+    "city": "London",
+    "title": "Coleman Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-5pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.51575339999999,
+    "longitude": -0.09012410000002546
+  },
+  {
+    "type": "tossed",
+    "address_1": "24 Cullum Street",
+    "city": "London",
+    "title": "Cullum Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-9pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5121091,
+    "longitude": -0.08258100000000468
+  },
+  {
+    "type": "tossed",
+    "address_1": "1 Gresham Street",
+    "city": "London",
+    "title": "Gresham Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-5pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5164645,
+    "longitude": -0.0967392000000018
+  },
+  {
+    "type": "tossed",
+    "address_1": "60d Holborn Viaduct",
+    "city": "London",
+    "title": "Holborn Viaduct",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-5pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5173107,
+    "longitude": -0.10441430000003038
+  },
+  {
+    "type": "tossed",
+    "address_1": "31 Horseferry Road",
+    "city": "London",
+    "title": "Horseferry Road",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-9pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.494862,
+    "longitude": -0.12980400000003556
+  },
+  {
+    "type": "tossed",
+    "address_1": "58 Houndsditch",
+    "city": "London",
+    "title": "Houndsditch",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5161521,
+    "longitude": -0.08030189999999493
+  },
+  {
+    "type": "tossed",
+    "address_1": "18 King William Street",
+    "city": "London",
+    "title": "King William Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-5pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5111334,
+    "longitude": -0.08716370000001916
+  },
+  {
+    "type": "tossed",
+    "address_1": "10 Sheldon Square",
+    "city": "London",
+    "title": "Sheldon Square",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-9pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5188924,
+    "longitude": -0.17944060000002082
+  },
+  {
+    "type": "tossed",
+    "address_1": "100 St Martin's Lane",
+    "city": "London",
+    "title": "St Martin's Lane",
+    "hours": [
+      {
+        "title": "Monday-Friday",
+        "hours": "8am-9pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.5104278,
+    "longitude": -0.1270380999999361
+  },
+  {
+    "type": "tossed",
+    "address_1": "1 Queenhithe",
+    "city": "London",
+    "title": "Upper Thames Street",
+    "hours": [
+      {
+        "title": "Monday-Thursday",
+        "hours": "7am-4:30pm"
+      },
+      {
+        "title": "Friday",
+        "hours": "7am-4pm"
+      },
+      {
+        "title": "Saturday-Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "latitude": 51.517342365208926,
+    "longitude": -0.11389732360839844
+  },
+  {
+    "type": "tossed",
+    "address_1": "Westfield Stratford City",
+    "city": "London",
+    "title": "Westfield Stratford",
+    "hours": [
+      {
+        "title": "Monday-Saturday",
+        "hours": "11am-10pm"
+      },
+      {
+        "title": "Sunday",
+        "hours": "12pm-6pm"
+      }
+    ],
+    "latitude": 51.543216,
+    "longitude": -0.006787000000031185
+  }
+]

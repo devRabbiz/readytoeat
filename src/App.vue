@@ -1,7 +1,8 @@
 <template>
     <div id="app">
-        <b-jumbotron text-variant="white" style="text-shadow: black 0 0 6px; background-image: url('https://images.unsplash.com/photo-1534482421-64566f976cfa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80')" header="Ready to Eat" lead="Reduced Food at Closing Time">
-            <p>crussh, itsu, pod, wasabi</p>
+        <b-jumbotron text-variant="white" style="text-shadow: black 0 0 6px; background-position: center center; background-image: url('https://images.unsplash.com/photo-1534482421-64566f976cfa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80')" header="Ready to Eat" lead="Reduced Food at Closing Time">
+            <p>coco di mama, crussh, itsu, pod, tossed, wasabi</p>
+            <p>(hours may vary during public holidays)</p>
         </b-jumbotron>
         <Locations/>
         <MapPopup/>
