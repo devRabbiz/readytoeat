@@ -8,7 +8,8 @@
                         :sub-title="location.state"
                         v-bind:class="[{'bg-success text-white': location.half_price, 'bg-warning text-white': location.warning}, location.type]">
                     <b-card-text>
-                        I am {{ location.distance }} miles away <span v-if="location.half_price"> and currently half price</span>
+                        I am {{ location.distance }} miles away <span v-if="location.half_price"> and currently half price</span><span
+                            v-else> and half price {{ location.half_price_period}} minutes before close</span>
                     </b-card-text>
 
                     <b-link v-on:click="launchModal(location.title, location.latitude, location.longitude, [location.address_1, location.address_2, location.city], location.type)"
@@ -27,7 +28,6 @@
     import * as opening_hours from 'opening_hours';
     import * as moment from 'moment';
     import EventBus from '../eventBus'
-
     // Json location data, formatted via https://jsoneditoronline.org
     import wasabi from '../data/wasabi' // https://www.wasabi.uk.com/ourbranches
     import itsu from '../data/itsu' // https://www.itsu.com/wp-admin/admin-ajax.php?action=locationList
@@ -67,7 +67,7 @@
                 this.locations = this.locations.concat(coco);
 
                 // Add tossed
-                this.locations = this.locations.concat(tossed)
+                this.locations = this.locations.concat(tossed);
 
                 // Process Locations
                 this.processLocations();
@@ -83,7 +83,7 @@
                     // Location between user and store
                     location.distance = this.calculateDistance(this.lat, this.lng, location.latitude, location.longitude).toFixed(2);
 
-                    // Deal with bloody bicester village and heathrow (itsu-specific as we don't have control over the api
+                    // Deal with bloody bicester village and heathrow (itsu-specific as we don't have control over the api (it's local now but makes it easier when we import it
                     if (location.hours[0].title === 'As per Bicester village' || location.title === 'Heathrow T5 Airside' || location.title === 'Stansted Airside') {
                         location.show = false;
                     } else {
@@ -96,7 +96,6 @@
                         if (typeof location.wifi_available != 'undefined') {
                             location.type = 'itsu'
                         }
-
 
                         // Format it in a way our parser plugin understands - itsu puts in a really bizarre way to we basically need to do some heavy lifting
                         let opening_hours_compat = location.hours
@@ -124,12 +123,14 @@
                                 } else if (difference <= 45) {
                                     location.warning = true
                                 }
+                                location.half_price_period = 30;
                             } else {
                                 if (difference <= 60) {
                                     location.half_price = true
                                 } else if (difference <= 75) {
                                     location.warning = true
                                 }
+                                location.half_price_period = 60;
                             } // Everything else is 1 hour
 
                         }
@@ -226,7 +227,7 @@
                         })
 
                 })
-                .catch(() =>  {
+                .catch(() => {
                     EventBus.$emit('LOCATION_ISSUE');
                     this.lat = 51.516297;
                     this.lng = -0.113003;

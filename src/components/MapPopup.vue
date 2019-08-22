@@ -7,12 +7,14 @@
                 ok-only
                 @shown="modalShown">
             <p>{{ address }}</p>
-            <l-map ref="map" style="height: 300px; width: 100%; margin-bottom: 10px" :zoom="zoom" :center="[lat, lng]" :options="{zoomControl: true}">
+            <l-map ref="map" id="map" :zoom="zoom" :center="[lat, lng]" :options="{zoomControl: true}">
                 <l-tile-layer :url="url" :attribution="provider"></l-tile-layer>
-                <l-marker :lat-lng="[lat, lng]" ></l-marker>
+                <l-marker :lat-lng="[lat, lng]"></l-marker>
             </l-map>
 
-            <b-button target="_blank" :href="'https://www.google.com/maps/dir/?api=1&destination=' + lat + ',' + lng" block variant="primary">Navigate</b-button>
+            <b-button target="_blank" :href="'https://www.google.com/maps/dir/?api=1&destination=' + lat + ',' + lng"
+                      block variant="primary">Navigate
+            </b-button>
         </b-modal>
     </div>
 </template>
@@ -62,5 +64,9 @@
 </script>
 
 <style scoped>
-
+    #map {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
 </style>
