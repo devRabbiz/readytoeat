@@ -12,9 +12,18 @@
                             v-else> and half price {{ location.half_price_period}} minutes before close</span>
                     </b-card-text>
 
-                    <b-link v-on:click="launchModal(location.title, location.latitude, location.longitude, [location.address_1, location.address_2, location.city], location.type)"
-                            class="card-link btn btn-primary">Open in Maps
-                    </b-link>
+
+                    <b-button-group>
+                        <b-button variant="primary"
+                                  v-on:click="launchModal(location.title, location.latitude, location.longitude, [location.address_1, location.address_2, location.city], location.type)"
+                                  class="card-link">Open in Maps
+                        </b-button>
+
+                        <b-button v-if="!location.closed" variant="primary"
+                                  v-on:click="addCal(location.title, location.address_1, location.type, location.time_closed)"
+                                  class="card-link">Add to Calendar
+                        </b-button>
+                    </b-button-group>
 
                 </b-card>
             </div>
@@ -105,11 +114,14 @@
 
                         // Calculate if they're closed, or closing
                         let time_till_change = moment(location.oh.getNextChange());
+                        location.time_closed = time_till_change.format();
 
                         // Only figure the countdown if they're closed
                         if (!location.oh.getState()) {
+                            location.closed = true;
                             location.state = 'Closed, will reopen in ' + time_till_change.toNow(true)
                         } else {
+                            location.close = false;
                             location.state = 'Closing in ' + time_till_change.toNow(true);
 
                             // Calc the actual difference so we can flag the element as nearly closing
@@ -206,6 +218,19 @@
                 };
 
                 EventBus.$emit('MAP_REQUESTED', payload)
+            },
+
+            addCal(title, address, type, close) {
+                let begin;
+                if (type === 'itsu' || type === 'wasabi') {
+                    begin = moment(close).subtract(30, 'minutes')
+                } else {
+                    begin = moment(close).subtract(1, 'hours')
+
+                }
+
+                this.$ics.addEvent('en-GB', type + ' ' + title, 'Half Price Food Begins', address, begin, close);
+                this.$ics.download('half-price')
             }
         },
         mounted() {

@@ -17,6 +17,7 @@
     "opening_hours": "^3.5.0",
     "vue": "^2.6.10",
     "vue-browser-geolocation": "^1.8.0",
+    "vue-ics": "^0.1.2",
     "vue-loading-overlay": "^3.2.0",
     "vue2-leaflet": "^2.2.1"
   },

@@ -5,6 +5,7 @@ import Loading from 'vue-loading-overlay';
 import { LMap, LTileLayer, LMarker } from 'vue2-leaflet';
 import { Icon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import ICS from 'vue-ics'
 
 import 'vue-loading-overlay/dist/vue-loading.css';
 
@@ -13,6 +14,7 @@ import App from './App.vue'
 Vue.config.productionTip = false;
 Vue.use(VueGeolocation);
 Vue.use(Loading);
+Vue.use(ICS);
 
 Vue.component('l-map', LMap);
 Vue.component('l-tile-layer', LTileLayer);
